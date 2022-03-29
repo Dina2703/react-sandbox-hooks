@@ -11,9 +11,11 @@ function UseRefExample1() {
   };
   return (
     <div>
-      <h4 className="container" ref={h4Ref}>
+      <h3>➡️ Example 1. useRef() hook to access/manipulate DOM elements </h3>
+      <h4 className="container text-danger" ref={h4Ref}>
         Hello
       </h4>
+      <p>Click 'Submit' changes 'Hello' to 'Bye'</p>
       <p onClick={() => inputRef.current.focus()}>Click me to focus on input</p>
       <form onSubmit={onSubmit}>
         <label htmlFor="name">Name</label>

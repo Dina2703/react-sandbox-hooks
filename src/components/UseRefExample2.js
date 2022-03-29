@@ -11,7 +11,7 @@ function useRefExample2() {
   }, [name]);
   return (
     <div>
-      <h3>Example 2. useRef to get previous state of a component.</h3>
+      <h3>➡️ Example 2. useRef to get previous state of a component.</h3>
       <p>Renders: {renders.current}</p>
       <p>Previous name state: {prevName.current}</p>
       <input
