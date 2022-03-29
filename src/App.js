@@ -1,4 +1,5 @@
 import "./App.css";
+import CustomHookExample from "./components/CustomHookExample";
 import UseCallBackExample from "./components/UseCallBackExample";
 import UseMemoExample from "./components/UseMemoExample";
 import UseRefExample1 from "./components/UseRefExample";
@@ -13,6 +14,7 @@ function App() {
       <UseRefExample3 />
       <UseMemoExample />
       <UseCallBackExample />
+      <CustomHookExample />
     </div>
   );
 }
